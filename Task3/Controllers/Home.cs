@@ -6,19 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace WebApplication12.Controllers
+namespace Task3.Controllers
 {
-    public class HomeController5 : Controller
+    public class Home : Controller
     {
         // GET: /<controller>/
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello";
+            return View();
         }
-
-        public string bye()
-        {
-            return "bye";
-        }
-}
+    }
 }
