@@ -11,8 +11,9 @@ namespace Task3.Models
         public string Phone { get; set; }
         public string address { get; set; }
         public int ID { get; set; }
-
-    }
+        public  int  O_ID { get; set; }
+        public Order Order_odr { get; set; }
+}
 
     
 
